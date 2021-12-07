@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AasaanPremium/static/css/main.40a98412.chunk.css",
+    "main.js": "/AasaanPremium/static/js/main.ec889035.chunk.js",
+    "main.js.map": "/AasaanPremium/static/js/main.ec889035.chunk.js.map",
+    "runtime-main.js": "/AasaanPremium/static/js/runtime-main.75964c59.js",
+    "runtime-main.js.map": "/AasaanPremium/static/js/runtime-main.75964c59.js.map",
+    "static/css/2.786ae0dd.chunk.css": "/AasaanPremium/static/css/2.786ae0dd.chunk.css",
+    "static/js/2.81d7322a.chunk.js": "/AasaanPremium/static/js/2.81d7322a.chunk.js",
+    "static/js/2.81d7322a.chunk.js.map": "/AasaanPremium/static/js/2.81d7322a.chunk.js.map",
+    "index.html": "/AasaanPremium/index.html",
+    "static/css/2.786ae0dd.chunk.css.map": "/AasaanPremium/static/css/2.786ae0dd.chunk.css.map",
+    "static/css/main.40a98412.chunk.css.map": "/AasaanPremium/static/css/main.40a98412.chunk.css.map",
+    "static/js/2.81d7322a.chunk.js.LICENSE.txt": "/AasaanPremium/static/js/2.81d7322a.chunk.js.LICENSE.txt",
+    "static/media/bg.a497bd0d.png": "/AasaanPremium/static/media/bg.a497bd0d.png",
+    "static/media/icon.a9d98972.jpg": "/AasaanPremium/static/media/icon.a9d98972.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75964c59.js",
+    "static/css/2.786ae0dd.chunk.css",
+    "static/js/2.81d7322a.chunk.js",
+    "static/css/main.40a98412.chunk.css",
+    "static/js/main.ec889035.chunk.js"
+  ]
+}
