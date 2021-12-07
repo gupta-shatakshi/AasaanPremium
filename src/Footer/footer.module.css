@@ -1,0 +1,44 @@
+.footer{
+    width: 100vw;
+    /* height: 30vh; */
+    height: 18vh;
+    background-color: #344f44;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    /* align-self: flex-end; */
+    /* padding: 7rem; */
+}
+.logo_ctn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1vw;
+}
+.logo_ctn img{
+    width: 30px;
+    height: 30px;
+}
+.contact_ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    gap: 0.6vh;
+
+}
+.contact_ctn h2{
+    font-family: 'roboto';
+    font-size: 1.2rem;
+    color: #fff;
+}
+.contact_ctn h1{
+    font-size: 0.7rem;
+    color: #fff;
+    font-family: 'roboto';
+    font-weight: 400;
+    letter-spacing: 2px;
+}

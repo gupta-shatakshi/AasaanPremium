@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.contentStart{
+    height: 210vh;
+    display: flex;
+    justify-content: center;
+}
+
+.innerContent{
+    width: 80%;
+    margin-top: 8em;
+}
+.innerContent h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(31, 110, 84);
+    /* padding-bottom: 10px; */
+}
+
+.mision{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.vision{
+    display: flex;
+    justify-content: space-around;
+
+}
+.mision p, .vision p{
+    font-size: 1.1em;
+    background: rgb(243, 243, 243);
+    width: 50%;
+    padding: 20px;
+    word-spacing: 5px;
+    color: rgb(18, 73, 55);
+    margin-top: 2em;
+
+}
+.mision p{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.vision p{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.mision img, .vision img{
+    width: 70%;
+    height: 300px;
+    /* background: rgb(168, 164, 164); */
+}
+
+.mision p::first-letter, .vision p::first-letter{
+    font-size: 3em;
+}

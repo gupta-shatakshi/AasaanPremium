@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.contentStart{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name{
+    display: flex;
+}
+.name input{
+    width: 50%;
+}
+.outerContent{
+    background: rgb(247, 247, 247);
+    /* margin-right: 10%; */
+    padding: 0 3em;
+    padding-bottom: 3em;
+    box-shadow: 7px 7px 8px rgba(100, 100, 100, 0.5);
+    margin-top: 4em;
+    opacity: 0.9;
+    font-size: 1.2em;
+}
+.innerContent{
+    margin-bottom: 0.5em;
+}
+.divBlock .email, .divBlock .password{
+    width: 100%;
+    text-indent: 7.5%;
+}
+.image{
+    margin-top: 10rem;
+}
+.image h2{
+   color: rgb(43, 129, 163);
+   text-align: center;
+   font-size: 5rem;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+.divBlock{
+    padding: 0rem 0em;
+    position: relative;
+}
+input:focus {
+    outline-width: 0;
+}
+.divBlock input{
+    width: 200px;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 15px;
+    border-style: none;
+    background: transparent;
+    border-bottom: 2px solid gray;
+    /* font-size: 1.2em; */
+    text-indent: 15%;
+}
+.divBlock input:hover{
+    background: rgb(228, 240, 240);
+    border-radius: 15px;
+}
+.divBlock label{
+    color: rgb(94, 110, 104);
+    font-size: 1.20em;
+    position: absolute;
+    padding: 10px;
+}
+.btn{
+    width: 100%;
+    height: 35px;
+    background-color: #2c79ca;
+    color: #fff;
+    font-size: 1.2rem;
+    border-style: none;
+    border-radius: 15px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.downContent{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.4em 0;
+}
+
+.login{
+    text-decoration: underline;
+    color: rgb(14, 121, 243);
+}
+.input input:hover, .input label:hover{
+    cursor: pointer;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(94, 110, 104);
+}
+.heading{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(73, 72, 72);
+    margin-bottom: 1em;
+
+}
+.deactivate{
+    width: 100%;
+    height: 35px;
+    background-color: #b7b7b7;
+    color: #fff;
+    border: none;
+    cursor: not-allowed;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}

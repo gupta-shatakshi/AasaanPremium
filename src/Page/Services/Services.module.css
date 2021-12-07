@@ -1,0 +1,312 @@
+/* .contentstart{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    transition: transform 0.2s;
+    background: rgb(59, 139, 95);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0 40%;
+    border-radius: 10px;
+} */
+/* .contentStart{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+} */
+.getAQuote {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    background: rgb(54, 139, 92);
+    padding: 10px;
+    margin: 0 40%;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+.subheading{
+    color: rgb(23, 70, 23);
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+.getAQuote h1{
+    color: rgb(255, 255, 255);
+}
+.getAQuote:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background: rgb(51, 145, 93);
+}
+.types, .details{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+    box-shadow: 7px 7px 8px rgba(100, 100, 100, 0.5);
+    padding: 2em 3em;
+    padding-bottom: 3em;
+    margin: 0 30%;
+    width: 40%;
+    margin-top: -4em;
+    background: rgb(247, 247, 247);
+
+}
+.types > h2{
+    text-align: center;
+}
+input, textarea, select{
+    padding: 10px 10px;
+    background: transparent;
+    /* font-weight: bold; */
+    border-style: none;
+    border-radius: 5px;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    /* border-left: 1px solid gray; */
+    /* border-top: 1px solid gray; */
+    /* width: 40%; */
+}
+.innerDiv > input{
+    width: 45%;
+}
+div select{
+    /* width: 50%; */
+    font-size: 1.2em;
+}
+/* textarea{
+    border-style: solid;
+} */
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.btn1, .btn2, .btn3, .btn4{
+    
+    padding: 5px;
+    width: 24%;
+    font-size: 15px;
+    align-self: center;
+    border-style: none;
+    transition: transform 0.1s;
+    color: rgb(255, 255, 255);
+    border-radius: 10px ;
+    background-color: rgb(22, 139, 139);
+    border-radius: 10px;
+}
+
+
+.btn1:enabled, .btn2:enabled, .btn3:enabled, .btn4:enabled{
+    cursor: pointer;
+    color: white;
+}
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover{
+    transform: scale(1.03);
+}
+.btn1:disabled, .btn2:disabled, .btn3:disabled, .btn4:disabled{
+    cursor: not-allowed;
+    color: rgb(209, 209, 209);
+    background: rgb(161, 163, 163);
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+.details > h2{
+    text-align: center;
+}
+.details .btnZip{
+    width: 60%;
+    margin: 0 20%;
+}
+
+.secondPage .types h2{
+    font-weight: bold;
+    color: rgb(11, 73, 30);
+}
+.personalInfo{
+    display: flex;
+    justify-content: space-between;
+    /* align-content: space-around; */
+    /* align-items: center; */
+    flex-direction: column;
+    width: 40%;
+    margin: 0 30%;
+    /* margin-bottom: 5em; */
+    margin-top: -3.5em;
+    box-shadow: 7px 7px 8px rgba(100, 100, 100, 0.5);
+    background: rgb(247, 247, 247);
+
+}
+.personalInfo label{
+    padding: 10px 10px;
+    font-size: 1.2em;
+    color: rgb(9, 61, 9);
+}
+.personalInfo div{
+    padding: 5px;
+    margin: 0 10px;
+    /* width: 400px; */
+}
+.personalInfo .innerDiv{
+    /* width: 100px; */
+    display: flex;
+    justify-content: space-around;
+}
+.personalInfo .innerDiv h2{
+    color: rgb(11, 73, 30);
+    font-weight: bold;
+}
+.personalInfo input:hover{
+    background: rgb(228, 240, 240);
+
+}
+.personalInfo button{
+    margin: 0;
+    margin-bottom: 1em;
+}
+/* .innerDiv textarea{
+    width: 80%;
+} */
+.check{
+    border-bottom: none;
+}
+.checkbox input, .maritalStatus input{
+    cursor: pointer;
+}
+.sorryPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 3em;
+}
+.sorryPage h2{
+    color: red;
+}
+.sorryPage h3{
+    color: rgb(40, 97, 62);
+}
+
+
+.assetDetails{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 30%;
+    /* margin-bottom: 10em; */
+    margin-top: -4em;
+    box-shadow: 7px 7px 8px rgba(100, 100, 100, 0.5);
+    padding: 1em 0;
+    background: rgb(247, 247, 247);
+
+}
+.assetDetails .innerDiv{
+    margin-left: 10%;
+}
+.assetDetails .innerDiv h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(11, 73, 30);
+}
+.assetDetails label{
+    font-size: 1.2em;
+    padding: 1em;
+}
+.assetDetails input, .assetDetails select{
+    margin: 0.5em;
+}
+.assetDetails input:hover, .assetDetails select:hover{
+    background: rgb(228, 240, 240);
+}
+.assetDetails .btn4{
+    margin: 1em 0;
+}
+
+
+.premium{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 30%;
+    /* margin-bottom: 10em; */
+    margin-top: -2em;
+    box-shadow: 7px 7px 8px rgba(100, 100, 100, 0.5);
+    padding: 1em 0;
+    background: rgb(247, 247, 247);
+
+}
+.premium > .innerDiv h1{
+    text-align: center;
+    font-weight: bold;
+}
+.premium .innerDiv .radioDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.premium .radioDiv {
+    margin: 0.5em;
+    font-size: 1.2em;
+    padding: 0.5em;
+    
+}
+.premium .radioDiv input{
+    cursor: pointer;
+}
+.premium .innerDiv h1, .premium .innerDiv h2{
+    text-align: center;
+
+}
+.premium .innerDiv .innerHeading{
+    display: flex;
+    justify-content: center;
+}
+.premium .innerDiv .innerHeading h2{
+    color: gray;
+    margin: 0 10px;
+    text-decoration:line-through;
+}
+.premium .innerDiv .innerHeading h1{
+    color: rgb(10, 100, 10);
+}
+.backButton{
+    width: 24%;
+    margin: 5% 0%;
+    padding: 5px;
+    background-color: rgb(22, 139, 139);
+    border-style: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 15px;
+    transition: transform 0.2s;
+}
+.backButton:hover{
+    cursor: pointer;
+    background-color: rgb(22, 114, 114);
+    transform: scale(1.03);
+}
+
+.divButton{
+    display: flex;
+    justify-content: space-around;
+}
+.buyBtn{
+    width: 24%;
+    margin: 5% 0%;
+    padding: 3px;
+    background-color: rgb(22, 139, 139);
+    border-style: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 15px;
+    transition: transform 0.2s;
+}
